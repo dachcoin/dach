@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/dach_bg.qm</file>
+        <file alias="ca">locale/dach_ca.qm</file>
+        <file alias="cs">locale/dach_cs.qm</file>
+        <file alias="da">locale/dach_da.qm</file>
+        <file alias="de">locale/dach_de.qm</file>
+        <file alias="en">locale/dach_en.qm</file>
+        <file alias="en_US">locale/dach_en_US.qm</file>
+        <file alias="eo">locale/dach_eo.qm</file>
+        <file alias="es">locale/dach_es.qm</file>
+        <file alias="es_ES">locale/dach_es_ES.qm</file>
+        <file alias="fi">locale/dach_fi.qm</file>
+        <file alias="fr_FR">locale/dach_fr_FR.qm</file>
+        <file alias="hi_IN">locale/dach_hi_IN.qm</file>
+        <file alias="hr">locale/dach_hr.qm</file>
+        <file alias="hr_HR">locale/dach_hr_HR.qm</file>
+        <file alias="it">locale/dach_it.qm</file>
+        <file alias="ja">locale/dach_ja.qm</file>
+        <file alias="ko_KR">locale/dach_ko_KR.qm</file>
+        <file alias="lt_LT">locale/dach_lt_LT.qm</file>
+        <file alias="nl">locale/dach_nl.qm</file>
+        <file alias="pl">locale/dach_pl.qm</file>
+        <file alias="pt">locale/dach_pt.qm</file>
+        <file alias="pt_BR">locale/dach_pt_BR.qm</file>
+        <file alias="ro_RO">locale/dach_ro_RO.qm</file>
+        <file alias="ru">locale/dach_ru.qm</file>
+        <file alias="sk">locale/dach_sk.qm</file>
+        <file alias="sv">locale/dach_sv.qm</file>
+        <file alias="tr">locale/dach_tr.qm</file>
+        <file alias="uk">locale/dach_uk.qm</file>
+        <file alias="vi">locale/dach_vi.qm</file>
+        <file alias="zh_CN">locale/dach_zh_CN.qm</file>
+        <file alias="zh_TW">locale/dach_zh_TW.qm</file>
+    </qresource>
+</RCC>

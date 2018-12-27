@@ -1,0 +1,26 @@
+# /etc/conf.d/dachd: config file for /etc/init.d/dachd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/dach/dach.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/dachd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dachd.pid"
+
+# Where to write dachd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/dachd"
+
+# User and group to own dachd process
+#BITCOIND_USER="dach"
+#BITCOIND_GROUP="dach"
+
+# Path to dachd executable
+#BITCOIND_BIN="/usr/bin/dachd"
+
+# Nice value to run dachd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

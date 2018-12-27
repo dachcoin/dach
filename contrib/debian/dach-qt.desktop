@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dach
+Comment=Dach P2P Cryptocurrency
+Comment[fr]=Dach, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dach, eşten eşe kriptografik sanal para birimi
+Exec=dach-qt %u
+Terminal=false
+Type=Application
+Icon=dach128
+MimeType=x-scheme-handler/dach;
+Categories=Office;Finance;

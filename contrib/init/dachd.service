@@ -1,0 +1,26 @@
+[Unit]
+Description=Dach's distributed currency daemon
+After=network.target
+
+[Service]
+User=dach
+Group=dach
+
+Type=forking
+PIDFile=/var/lib/dachd/dachd.pid
+
+ExecStart=/usr/bin/dachd -daemon -pid=/var/lib/dachd/dachd.pid \
+          -conf=/etc/dach/dach.conf -datadir=/var/lib/dachd
+
+ExecStop=-/usr/bin/dach-cli -conf=/etc/dach/dach.conf \
+         -datadir=/var/lib/dachd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
