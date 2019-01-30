@@ -3760,7 +3760,7 @@ bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool f
     return true;
 }
 
-#define STAKE_MIN_CONF 100
+// #define STAKE_MIN_CONF 100
 
 bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig)
 {
@@ -3845,9 +3845,9 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
 			return state.DoS(100, error("CheckBlock() : stake under min. stake age"));
 
 		// Check that the prev. stake block has required confirmations by height.
-		LogPrintf("CheckBlock() : height=%d stake_tx_height=%d required_confirmations=%d got=%d\n", chainActive.Tip()->nHeight, pindex->nHeight, STAKE_MIN_CONF, chainActive.Tip()->nHeight - pindex->nHeight);
+		/*LogPrintf("CheckBlock() : height=%d stake_tx_height=%d required_confirmations=%d got=%d\n", chainActive.Tip()->nHeight, pindex->nHeight, STAKE_MIN_CONF, chainActive.Tip()->nHeight - pindex->nHeight);
 		if (chainActive.Tip()->nHeight - pindex->nHeight < STAKE_MIN_CONF)
-			return state.DoS(100, error("CheckBlock() : stake under min. required confirmations"));
+			return state.DoS(100, error("CheckBlock() : stake under min. required confirmations"));*/
 		
     }
 
